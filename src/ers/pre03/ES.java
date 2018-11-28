@@ -1,4 +1,4 @@
-package ers.indiv03;
+package ers.pre03;
 
 public class ES
 {
@@ -48,8 +48,4 @@ public class ES
     {
         System.out.println(escribirln);
     }       
-    public static void main(String[] args) 
-    {
-    
-    }
 }

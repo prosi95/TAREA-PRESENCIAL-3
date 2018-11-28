@@ -1,4 +1,4 @@
-package ers.indiv03;
+package ers.pre03;
 
 public class Libro
 { 
@@ -6,7 +6,7 @@ public class Libro
     String autor;
     String descripcion;
     int paginas;
-    Libro(String a, String b, String c, int d)
+    public Libro(String a, String b, String c, int d)
     {
         nombre = a;
         autor = b;
@@ -45,7 +45,7 @@ public class Libro
     {
         paginas = a;
     }
-    String toString2()
+    public String toString()
     {
         return nombre+" "+autor+" "+descripcion+" "+paginas;
     }
@@ -55,7 +55,7 @@ public class Libro
          //System.out.println(HarryPotter.autor+HarryPotter.nombre);
          //System.out.println(HarryPotter.getNombre());
          HarryPotter.setNombre("HP");
-         System.out.println(HarryPotter.toString2());
+         System.out.println(HarryPotter.toString());
     }
 }
 
